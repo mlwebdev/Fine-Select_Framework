@@ -1,7 +1,7 @@
 // fs-framework.js
 
 var fs = {
-	get_id : function (el) {
+  	get_id : function (el) {
 		return document.getElementById(el);
 	}
 	get_tag : function (el) {
@@ -13,7 +13,6 @@ var fs = {
 	get_name : function (el) {
 		return document.getElementsName(el);
 	}
-
 }
 
 
