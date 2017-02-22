@@ -5,13 +5,13 @@ var fs = {
 		return document.getElementById(el);
 	}
 	get_tag : function (el) {
-		return document.getElementsyTagName(el);
+		return document.getElementsByTagName(el)[0];
 	}
 	get_class : function (el) {
-		return document.getElementsByClassName(el);
+		return document.getElementsByClassName(el)[0];
 	}
 	get_name : function (el) {
-		return document.getElementsName(el);
+		return document.getElementsByName(el)[0];
 	}
 }
 
