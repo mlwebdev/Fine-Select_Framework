@@ -14,7 +14,7 @@ var fs = {
 		return document.getElementsByName(el)[0];
 	}
 	cr_el : function (el){ 
-	return document.createElement(el);
+		return document.createElement(el);
 	}
 }
 
