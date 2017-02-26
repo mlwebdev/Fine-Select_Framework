@@ -9,20 +9,18 @@ window.addEventListener("DOMContentLoaded", function doItAll() {
 */
 
 	var _yClass = fs.getClass("yClass", 0);
-	_yClass.innerHTML = "<h3>Oh Yes !! You Good</h3>" +
+	_yClass.innerHTML = 
+		"<h3>Oh Yes !! You Good</h3>" +
 		"<p>This is the first element with the yClass</p>";
 
 	var _yClass2 = fs.getClass("yClass", 1);
-	_yClass2.innerHTML = "<h4>Oh, Oh Yes !! You Real Good</h4>" +
+	_yClass2.innerHTML = 
+		"<h4>Oh, Oh Yes !! You Real Good</h4>" +
 		"<p>This is the second element with the yClass</p>";
 
 	var _zClass = fs.getClass("zClass", 0);
-	_zClass.innerHTML = "<h4>Man !! You know you're Good</h4>" +
+	_zClass.innerHTML = 
+		"<h4>Man !! You know you're Good</h4>" +
 		"<p>This is the first element with the yClass</p>";
-
 });
-
-
-
-
 
