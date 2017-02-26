@@ -2,12 +2,10 @@
 window.addEventListener("DOMContentLoaded", function doItAll() {
 	const fs={getId:function(a){return document.getElementById(a)},getTag:function(a){return document.getElementsByTagName(a)[0]},
 	getClass:function(a, i){return document.getElementsByClassName(a)[i]},getName:function(a){return document.getElementsByName(a)[0]},crEl:function(a){return document.createElement(a)}};
-
 /*	
 	var _body = fs.getTag("body");
 	_body.innerHTML = "<h2>Yes !! You Good</h2>";
 */
-
 	var _yClass = fs.getClass("yClass", 0);
 	_yClass.innerHTML = 
 		"<h3>Oh Yes !! You Good</h3>" +
