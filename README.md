@@ -10,7 +10,7 @@ setAttributes( getTag("p"),
     { "id" : "newAttr", "class" : "newClass" }
 );
 This will result to <p id="newAttr" class="newClass"></p>
-You can then call #####getId("newAttr").innerHTML = "Added to dynamic attributes";
+You can then call ##### getId("newAttr").innerHTML = "Added to dynamic attributes";
 
 #### Set attribute to element by id 
 setAttributes(getId("app_main"), 
