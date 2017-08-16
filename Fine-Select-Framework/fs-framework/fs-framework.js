@@ -26,7 +26,7 @@
   }, this.setAttributes = function (el, attrs) {
     for(var key in attrs) {
       el.setAttribute(key, attrs[key]);
-    } 
+    } // 
   }, this.addElementOnTag = function (elp, elc, inp) {
        elc = this.createEl(elc)
        elp = this.getTag(elp)
