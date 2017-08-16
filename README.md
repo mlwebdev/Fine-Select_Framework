@@ -4,14 +4,19 @@ This is framework is small but ever increasing. Features allow for selectiong el
 creating elements, appending elements to other elements and setting multiple attributes to any element.
 
 ### Selectors
-getId,            // document.getElementById();
+getId()           // document.getElementById();
 
-getTag,           // document.getElementsByTagName();
+getTag()          // document.getElementsByTagName();
 
-getClass,         // document.getElementsByClassName();
+getClass()        // document.getElementsByClassName();
 
-getName,          // document.getElementsByName();
+getName()         // document.getElementsByName();
 
+### Create Elements
+crEl()            // document.createElement()
+#### Create Element and append to a parent element
+addElementOnTag,  // Append child to parent with innerHTML
+addElementOnId    // Append child to parent with innerHTML
 
 ### Set multiple attributes to an HTML element 
 
@@ -27,3 +32,4 @@ getId("newAttr").innerHTML = "Added to dynamic attributes";
 setAttributes(getId("app_main"), 
     { "class" : "newClass" }
 );
+
