@@ -5,12 +5,12 @@ creating elements, appending elements to other elements and setting multiple att
 
 ### Set multiple attributes to an HTML element 
 
-##### Set attribute to element by tagname
+#### Set attribute to element by tagname
 setAttributes(getTag("p"), 
     { "id" : "newAttr", "class" : "newClass" }
 );
 
-##### Set attribute to element by id 
+#### Set attribute to element by id 
 setAttributes(getId("app_main"), 
     { "class" : "newClass" }
 );
