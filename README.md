@@ -16,7 +16,6 @@ getName()         // document.getElementsByName();
 crEl()            // document.createElement()
 #### Create Element and append to a parent element
 addElementOnTag() // Append child to parent by tagname with innerHTML
-
 addElementOnId()  // Append child to parent by id with innerHTML
 
 ### Set multiple attributes to an HTML element 
