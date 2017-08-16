@@ -1,6 +1,6 @@
 # Fine-Select_Framework
 
-This is framework is small but ever increasing. Features allow for selectiong elements, 
+This is framework is small but ever increasing. Features allow for selecting elements, 
 creating elements, appending elements to other elements and setting multiple attributes to any element.
 
 ### Selectors
@@ -13,7 +13,7 @@ getClass()        // document.getElementsByClassName();
 getName()         // document.getElementsByName();
 
 ### Create Elements
-crEl()            // document.createElement()
+createEl()        // document.createElement()
 #### Create Element and append to a parent element and add text (innerHTML)
 addElementOnTag() // Append child to parent by tagname with innerHTML
 
