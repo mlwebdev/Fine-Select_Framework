@@ -5,8 +5,11 @@ creating elements, appending elements to other elements and setting multiple att
 
 ### Selectors
 getId,            // document.getElementById();
+
 getTag,           // document.getElementsByTagName();
+
 getClass,         // document.getElementsByClassName();
+
 getName,          // document.getElementsByName();
 
 
