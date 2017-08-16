@@ -4,10 +4,10 @@ This is framework is small but ever increasing. Features allow for selectiong el
 creating elements, appending elements to other elements and setting multiple attributes to any element.
 
 ### Selectors
-getId,            // document.getElementById()
-getTag,           // document.getElementsByTagName()
-getClass,         // document.getElementsByClassName()
-getName,          // document.getElementsByName()
+getId,            // document.getElementById();
+getTag,           // document.getElementsByTagName();
+getClass,         // document.getElementsByClassName();
+getName,          // document.getElementsByName();
 
 
 ### Set multiple attributes to an HTML element 
