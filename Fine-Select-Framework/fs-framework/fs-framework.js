@@ -4,7 +4,7 @@
   getTag,           // document.getElementsByTagName()
   getClass,         // document.getElementsByClassName()
   getName,          // document.getElementsByName()
-  crEl,             // document.createElement()
+  createEl,         // document.createElement()
   setItem,          // localStorage.setItem()
   setAttributes,    // Set multiple attributes to one element
   addElementOnTag,  // Append child to parent with innerHTML
