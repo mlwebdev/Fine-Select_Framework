@@ -25,7 +25,7 @@ addElementOnId()  // Append child to parent by id with innerHTML
 setAttributes( getTag("p"), 
     { "id" : "newAttr", "class" : "newClass" }
 );
-// Result: [//]: #  (<p id="newAttr" class="newClass"></p>)
+// Result: p id="newAttr" class="newClass" /p
 You can then call:
 // getId("newAttr").innerHTML = "Added to dynamic attributes";
 // Result: [//]: #  (<p id="newAttr" class="newClass"><Added to dynamic attributes</p>)
