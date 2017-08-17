@@ -13,6 +13,7 @@ getClass()        // document.getElementsByClassName();
 
 getName()         // document.getElementsByName();
 
+
 ### Create Elements
 #### Usage :
 createEl()        // document.createElement()
