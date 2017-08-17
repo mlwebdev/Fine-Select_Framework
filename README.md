@@ -26,9 +26,11 @@ setAttributes( getTag("p"),
     { "id" : "newAttr", "class" : "newClass" }
 );
 // Result: p id="newAttr" class="newClass" /p
+
 You can then call:
 // getId("newAttr").innerHTML = "Added to dynamic attributes";
-// Result: [//]: #  (<p id="newAttr" class="newClass"><Added to dynamic attributes</p>)
+
+// Result: p id="newAttr" class="newClass" Added to dynamic attributes
 
 #### Set attribute to element by id 
 setAttributes(getId("app_main"), 
