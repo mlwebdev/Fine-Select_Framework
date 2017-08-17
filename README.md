@@ -22,7 +22,7 @@ createElement()        // document.createElement()
 #### Usage :
 var new_div = createElement("div");
 
-#### Create Element and append to a parent element and add text (innerHTML)
+#### Create Element, append to a parent element and add text (innerHTML)
 
 addElementOnTag() // Append child to parent by tagname with innerHTML <br />
 addElementOnId()  // Append child to parent by id with innerHTML
