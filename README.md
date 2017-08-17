@@ -33,6 +33,7 @@ addElementOnTag("body", "new_div", null); // creating element with not text (nul
 
 addElementOnId("main_div", "new_div", "This is a child div");<br />
 or <br />
+addElementOnId("main_div", "new_div", null);
 
 ### Set multiple attributes to an HTML element 
 
