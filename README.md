@@ -33,7 +33,7 @@ setAttributes( getTag("p"),
 // Result: paragraph with id="newAttr" & class="newClass" 
 
 You can then call:
-// getId("newAttr").innerHTML = "Added to dynamic attributes";
+getId("newAttr").innerHTML = "Added to dynamic attributes";
 
 // Result: paragraph with id="newAttr" & class="newClass" & inner text is "Added to dynamic attributes"
 
