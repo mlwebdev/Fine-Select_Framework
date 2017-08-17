@@ -29,6 +29,7 @@ addElementOnId()  // Append child to parent by id with innerHTML
 setAttributes( getTag("p"), 
     { "id" : "newAttr", "class" : "newClass" }
 );
+
 // Result: paragraph with id="newAttr" & class="newClass" 
 
 You can then call:
