@@ -18,19 +18,27 @@ var psswd = getName("password");
 
 
 ### Create Elements
+createElement()        // document.createElement()
 #### Usage :
-createEl()        // document.createElement()
-#### Create Element and append to a parent element and add text (innerHTML)
-#### Usage :
-addElementOnTag() // Append child to parent by tagname with innerHTML
+var new_div = createElement("div");
 
+#### Create Element and append to a parent element and add text (innerHTML)
+
+addElementOnTag() // Append child to parent by tagname with innerHTML <br />
 addElementOnId()  // Append child to parent by id with innerHTML
+#### Usage :
+addElementOnTag("body", "new_div", "This is a new dynamic div");<br />
+or <br />
+addElementOnTag("body", "new_div", null); // creating element with not text (null or empty string like " ")
+
+addElementOnId("main_div", "new_div", "This is a child div");<br />
+or <br />
 
 ### Set multiple attributes to an HTML element 
 
 #### Set attribute to element by tagname
 #### Usage :
-setAttributes( getTag("p"), 
+setAttributes( getTag("p");
     { "id" : "newAttr", "class" : "newClass" }
 );
 
