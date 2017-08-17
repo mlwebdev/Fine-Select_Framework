@@ -4,13 +4,17 @@ This is framework is small but ever increasing. Features allow for selecting ele
 creating elements, appending elements to other elements and setting multiple attributes to any element.
 
 ### Selectors
-#### Usage :
+
 getId()           // document.getElementById();<br />
-getTag()          // document.getElementsByTagName();
+getTag()          // document.getElementsByTagName();<br />
+getClass()        // document.getElementsByClassName();<br />
+getName()         // document.getElementsByName();<br />
 
-getClass()        // document.getElementsByClassName();
-
-getName()         // document.getElementsByName();
+#### Usage :
+var app = getId("app");<br />
+var div = getTag("div");<br />
+var tInput = getClass("form-control");<br />
+var psswd = getName("password");
 
 
 ### Create Elements
